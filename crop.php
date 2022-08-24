@@ -87,6 +87,9 @@ if(isset($_POST['button']))
  $result= file_get_contents("http://127.0.0.1:5000/api?temperature=$getTemperature&humidity=$getHumidity&ph=$getPH&rainfall=$getRainfall");
  $result=strtoupper($result);
 echo "<script>alert('predicted crop is  $result') </script>";
+echo "<img height='300px' width='100px' src='Crops/$result.jpg' />";
+
+
 }
 
 
