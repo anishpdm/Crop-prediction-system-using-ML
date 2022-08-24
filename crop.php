@@ -89,7 +89,7 @@ if(isset($_POST['button']))
  $result=strtoupper($result);
 
 echo "<script>alert('predicted crop is  $result') </script>";
-echo "<img height='300px' width='100px' src='./Crops/$datares.jpg' />";
+echo "<center> <img height='300px' width='300px' src='./Crops/$datares.jpg' />  </center> ";
 
 
 }
